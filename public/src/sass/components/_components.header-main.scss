@@ -2,8 +2,8 @@
     #HEADER MAIN
 \*------------------------------------*/
 
-$header-height: 100px;
-$header-bgr: #fff;
+/*$header-height: 0px;
+$header-bgr: #$color-gray-dark;
 
 .header-main {
 	height: $header-height;
@@ -19,4 +19,8 @@ $header-bgr: #fff;
 	+ main {
 		padding-top: $header-height;
 	}
+}*/
+
+.header-main {
+	background-color: $color-gray-dark;
 }
