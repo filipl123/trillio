@@ -1,13 +1,17 @@
 
 
 // Color palette
-$color-brand:				#000;
+$color-brand:				#c69963;
+$color-brand-dark:          #B28451;
+$color-secondary:           #101d2c;
 $color-brand-highlight:		lighten($color-brand, 15%);
 $color-brand-shadow:		darken($color-brand, 15%);
 
-$color-gray:				#000;
-$color-gray-light:			#000;
-$color-gray-dark:			#000;
+$color-gray:				#ccc;
+$color-gray-light:			#f9f7f6;
+$color-gray-light-2:		#aaa;
+$color-gray-dark:			#54483A;
+$color-gray-dark-2:			#6D5D4B;
 
 $color-error:				red;
 $color-success: 			green;
