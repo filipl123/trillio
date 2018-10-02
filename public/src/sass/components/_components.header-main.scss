@@ -23,4 +23,5 @@ $header-bgr: #$color-gray-dark;
 
 .header-main {
 	background-color: $color-gray-dark;
+	grid-column: full-start / col-end 6;
 }
