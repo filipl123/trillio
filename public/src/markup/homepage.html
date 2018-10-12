@@ -3,36 +3,81 @@
 {% set page = "homepage" %}
 
 {% block content %}
-	
-	<div class="sidebar">
-		Sidebar
+
+<div class="sidebar">
+	Sidebar
+</div>
+
+{% include "_components/component.header.html" %}
+
+<div class="realtors">
+	Top 3 realtor
+</div>
+
+<section class="features">
+	<div class="feature">
+		<svg class="feature__icon">
+			<use xlink:href="/src/images/sprite.svg#icon-global"></use>
+		</svg>
+		<h4 class="heading-4">Textdfjkhasdfjkashdf</h4>
+		<p class="feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates incidunt
+			voluptatibus iste nisi facilis quae inventore voluptate dolores maxime.</p>
 	</div>
-
-	{% include "_components/component.header.html" %}
-
-	<div class="realtors">
-		Top 3 realtor
+	<div class="feature">
+		<svg class="feature__icon">
+			<use xlink:href="/src/images/sprite.svg#icon-trophy"></use>
+		</svg>
+		<h4 class="heading-4">Textdfjkhasdfjkashdf</h4>
+		<p class="feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates incidunt
+			voluptatibus iste nisi facilis quae inventore voluptate dolores maxime.</p>
 	</div>
-
-	<section class="features">
-		Features
-	</section>
-
-	<div class="story__pictures">
-		Story pictures
+	<div class="feature">
+		<svg class="feature__icon">
+			<use xlink:href="/src/images/sprite.svg#icon-map-pin"></use>
+		</svg>
+		<h4 class="heading-4">Textdfjkhasdfjkashvdfgdf</h4>
+		<p class="feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates incidunt
+			voluptatibus iste nisi  voluptate dolores maxime.</p>
 	</div>
-
-	<div class="story__content">
-		Story content
+	<div class="feature"><svg class="feature__icon">
+			<use xlink:href="/src/images/sprite.svg#icon-key"></use>
+		</svg>
+		<h4 class="heading-4">dsfdsfdsfsddddddddddg</h4>
+		<p class="feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates incidunt
+			voluptatibus iste nisi facilis quae fasfasdfainventore voluptate dolores maxime.</p>
 	</div>
+	<div class="feature">
+		<svg class="feature__icon">
+			<use xlink:href="/src/images/sprite.svg#icon-presentation"></use>
+		</svg>
+		<h4 class="heading-4">Textdfjkhasdfjkashdf</h4>
+		<p class="feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates incidunt
+			voluptatibus iste nisi facilis quae inventore voluptate dolores maxime.</p>
+	</div>
+	<div class="feature"><svg class="feature__icon">
+			<use xlink:href="/src/images/sprite.svg#icon-lock"></use>
+		</svg>
+		<h4 class="heading-4">Textdfjkhasdfjkashdf</h4>
+		<p class="feature__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptates incidunt
+			voluptatibus iste nisi facilis quae inventore voluptate dolores maxime.</p>
+	</div>
+</section>
 
-	<section class="homes">
-		Homes
-	</section>
+<div class="story__pictures">
+	Story pictures
+</div>
 
-	<section class="gallery">
-		Gallery
-	</section>
+<div class="story__content">
+	Story content
+</div>
 
-	{% include "_components/component.footer.html" %}
+<section class="homes">
+	Homes
+</section>
+
+<section class="gallery">
+	Gallery
+</section>
+
+{% include "_components/component.footer.html" %}
 {% endblock %}
