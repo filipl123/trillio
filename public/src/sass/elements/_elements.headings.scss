@@ -18,21 +18,39 @@ h6 {
 h1,
 .h1 {
     @include font-size(32px);
+    font-family: $base-font-display;
 }
 
 h2,
 .h2 {
     @include font-size(28px);
+    font-family: $base-font-display;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 1;
+
+    &--light {color: $color-gray;}
+    &--dark {color: $color-gray-dark;}
 }
 
 h3,
 .h3 {
     @include font-size(24px);
+    font-family: $base-font-display;
+    font-size: 16px;
+    color: $color-brand;
+    text-transform: uppercase;
 }
 
 h4,
 .h4 {
     @include font-size(20px);
+    font-family: $base-font-display;
+    font-size: 19px;
+
+    &--light {color: $color-gray;}
+    &--dark {color: $color-gray-dark;}
+
 }
 
 h5,

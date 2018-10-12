@@ -78,3 +78,20 @@ $btn-height:                        50px;
         }
     }
 }
+
+.btn {
+    background-color: $color-brand;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-family: $base-font-family;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 18px 30px;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover {
+        background-color: $color-brand-dark;
+    }
+}
