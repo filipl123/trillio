@@ -44,6 +44,10 @@ $header-bgr: #$color-gray-dark;
 		align-self: start;
 		justify-self: start;
 
+		&:hover {
+			transform: translateY(-3px);
+		}
+
 	}
 
 	&__seenon-text {
