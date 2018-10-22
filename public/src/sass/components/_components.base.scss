@@ -5,4 +5,16 @@
     [sidebar-start] 80px [sidebar-end full-start] minmax(60px, 1fr)
     [center-start] repeat(8, [col-start] minmax(min-content, 140px) [col-end])
     [center-end] minmax(60px, 1fr) [full-end];
+
+  @media only screen and (max-width: 1000px) {
+    grid-template-rows: 60px 80vh min-content 40vw repeat(3, min-content);
+    grid-template-columns:
+      [full-start] minmax(60px, 1fr)
+      [center-start] repeat(8, [col-start] minmax(min-content, 140px) [col-end])
+      [center-end] minmax(60px, 1fr) [full-end];
+  }
+
+  @media only screen and (max-width: 900px) {
+    grid-template-rows: 60px calc(100vh - 60px);
+  }
 }
